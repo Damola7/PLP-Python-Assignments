@@ -29,6 +29,6 @@ if missing_values.any():
 else:
     print("\nNo missing values detected.")
 
-# Save cleaned data for the next task
+# Saves and creates this automatically, cleaned data for the next task
 data.to_csv('processed_data.csv', index=False)
 print("\nProcessed dataset saved as 'processed_data.csv'.")
